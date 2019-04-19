@@ -1,0 +1,37 @@
+/* 
+    Created on : 17/04/2019, 19:26:39
+    Author     : mateus.spagnol
+*/
+/*Configuração do rodape*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+div.body-content{
+    /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
+    padding-bottom: 100px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+}
+
+#divRodape{
+    background: black;
+    color: white;
+    height: 100%
+}
+/*Fim configuração do rodapé*/
+
+#logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
